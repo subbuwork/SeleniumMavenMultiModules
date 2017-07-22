@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="coremodule" />
+        <module name="pommodule" />
+        <module name="testmodule" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AutomationFramework1" target="1.5" />
+      <module name="coremodule" target="1.5" />
+      <module name="pommodule" target="1.5" />
+      <module name="testmodule" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

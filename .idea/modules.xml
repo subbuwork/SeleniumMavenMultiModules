@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AutomationFramework1.iml" filepath="$PROJECT_DIR$/AutomationFramework1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coremodule/coremodule.iml" filepath="$PROJECT_DIR$/coremodule/coremodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pommodule/pommodule.iml" filepath="$PROJECT_DIR$/pommodule/pommodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testmodule/testmodule.iml" filepath="$PROJECT_DIR$/testmodule/testmodule.iml" />
+    </modules>
+  </component>
+</project>
