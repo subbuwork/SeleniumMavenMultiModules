@@ -2,6 +2,7 @@ package tests_amazon;
 
 import amazon.HomePage;
 import browser.Browser;
+import com.gargoylesoftware.htmlunit.Page;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterTest;
@@ -22,6 +23,12 @@ public class AmazonHomePageTest {
         homePage.open("url");
 
 
+    }
+
+    public void search_products(){
+        HomePage homePage = PageFactory.initElements(driver,HomePage.class);
+        homePage.open("url");
+        
     }
 
     @AfterTest
